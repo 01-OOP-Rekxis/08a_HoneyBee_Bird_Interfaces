@@ -1,10 +1,10 @@
 package com.cc.java;
 
-public class Drone extends HoneyBee{
+public class Drone extends HoneyBee {
 
     @Override
     public String doYourJob() {
-       return "I'm a drone, I'm going to date our Queen!";
+        return "I'm a drone, I'm going to date our Queen!";
     }
 
     @Override
@@ -12,7 +12,4 @@ public class Drone extends HoneyBee{
         return "I can fly at 10mph!";
     }
 
-   
-
-    
 }

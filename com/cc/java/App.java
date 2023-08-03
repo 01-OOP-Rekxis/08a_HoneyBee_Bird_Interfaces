@@ -12,7 +12,8 @@ public class App {
         pollObj(queen);
         pollObj(worker);
         pollObj(drone);
-        pollObj(bird);
+        output(bird.fly());
+        output(bird.hasFeathers());
 
         // output("---------------------");
 
